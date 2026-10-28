@@ -1,0 +1,24 @@
+{
+  "name": "@vietvi/i18n",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next-intl": "catalog:"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "@vietvi/config-eslint": "workspace:*",
+    "@vietvi/config-typescript": "workspace:*",
+    "eslint": "catalog:",
+    "typescript": "catalog:"
+  }
+}

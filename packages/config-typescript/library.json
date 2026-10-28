@@ -4,7 +4,6 @@
     "target": "ES2024",
     "module": "nodenext",
     "moduleResolution": "nodenext",
-    "outDir": "./dist",
     "declaration": true,
     "declarationMap": true
   }
