@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "schedule": ["before 6am on monday"],
+  "timezone": "Asia/Ho_Chi_Minh",
+  "labels": ["dependencies"],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "deps"
+    },
+    {
+      "matchPackageNames": ["typescript", "next", "@nestjs/core", "tailwindcss"],
+      "groupName": "core stack",
+      "schedule": ["before 6am on the first day of the month"]
+    }
+  ]
+}

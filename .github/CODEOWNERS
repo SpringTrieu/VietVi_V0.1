@@ -1,0 +1,12 @@
+*                              @tech-lead
+/apps/web/                     @fe-a
+/apps/admin/                   @fe-b
+/packages/ui/                  @fe-b
+/packages/i18n/                @fe-a
+/apps/api/                     @be
+/infra/                        @be @tech-lead
+/packages/contracts/           @be @fe-a @fe-b
+/docs/api/openapi.json         @be @fe-a @fe-b
+/apps/api/db/migrations/       @be @tech-lead
+/docs/adr/                     @tech-lead
+/.github/                      @tech-lead
