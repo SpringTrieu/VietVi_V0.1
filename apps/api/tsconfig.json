@@ -1,0 +1,12 @@
+{
+  "extends": "@vietvi/config-typescript/nestjs.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "./dist",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

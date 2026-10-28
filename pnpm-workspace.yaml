@@ -11,6 +11,7 @@ catalog:
   react: ^19.3.1
   react-dom: ^19.3.1
   tailwindcss: ^4.3.3
+  "@tailwindcss/turbopack": ^4.3.3
   "@tanstack/react-query": "*"
   zustand: "*"
   "react-hook-form": "*"
@@ -55,3 +56,28 @@ catalog:
   jest: "*"
   supertest: "*"
   playwright: "*"
+
+  # Types
+  "@types/node": "*"
+  "@types/react": "*"
+  "@types/react-dom": "*"
+  "@types/express": "*"
+  "@types/jest": "*"
+  "@types/supertest": "*"
+  "@types/pg": "*"
+
+  # NestJS runtime & dev tools
+  reflect-metadata: "*"
+  rxjs: "*"
+  "@nestjs/cli": ^11.0.0
+  "@nestjs/schematics": ^11.0.0
+  "@nestjs/testing": ^11.2.8
+  ts-jest: "*"
+  ts-loader: "*"
+  ts-node: "*"
+  tsconfig-paths: "*"
+  source-map-support: "*"
+
+allowBuilds:
+  '@parcel/watcher': true
+  unrs-resolver: true

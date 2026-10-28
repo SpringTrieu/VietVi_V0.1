@@ -27,6 +27,8 @@
     "husky": "catalog:",
     "lint-staged": "catalog:",
     "prettier": "catalog:",
+    "tailwindcss": "catalog:",
+    "@tailwindcss/turbopack": "catalog:",
     "turbo": "catalog:",
     "typescript": "catalog:"
   },
