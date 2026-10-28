@@ -1,0 +1,13 @@
+{
+  "name": "@vietvi/config-eslint",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.mjs",
+  "dependencies": {
+    "eslint": "catalog:",
+    "@eslint/js": "catalog:",
+    "typescript-eslint": "catalog:",
+    "eslint-plugin-boundaries": "catalog:"
+  }
+}

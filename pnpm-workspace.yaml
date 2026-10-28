@@ -11,47 +11,47 @@ catalog:
   react: ^19.3.1
   react-dom: ^19.3.1
   tailwindcss: ^4.3.3
-  "@tanstack/react-query": ^5.80.7
-  zustand: ^5.0.6
-  "react-hook-form": ^7.58.1
+  "@tanstack/react-query": "*"
+  zustand: "*"
+  "react-hook-form": "*"
   zod: ^4.6.7
-  next-intl: ^4.0.2
-  socket.io-client: ^4.9.1
-  msw: ^2.9.2
+  next-intl: "*"
+  socket.io-client: "*"
+  msw: "*"
 
   # Back-end
   "@nestjs/core": ^11.2.8
   "@nestjs/common": ^11.2.8
   "@nestjs/platform-express": ^11.2.8
-  "@nestjs/config": ^4.0.5
-  "@nestjs/jwt": ^11.0.0
-  "@nestjs/swagger": ^12.0.5
+  "@nestjs/config": "*"
+  "@nestjs/jwt": "*"
+  "@nestjs/swagger": "*"
   "@nestjs/websockets": ^11.2.8
   "@nestjs/platform-socket.io": ^11.2.8
   kysely: ^0.29.7
-  pg: ^8.16.3
+  pg: "*"
   bullmq: ^6.5.1
-  nestjs-pino: ^4.4.0
-  pino: ^9.8.0
-  socket.io: ^4.9.1
+  nestjs-pino: "*"
+  pino: "*"
+  socket.io: "*"
 
   # Shared
-  "@hookform/resolvers": ^5.2.0
-  orval: ^7.10.0
+  "@hookform/resolvers": "*"
+  orval: "*"
 
   # Dev tools
   turbo: ^2.11.10
-  prettier: ^3.5.3
-  eslint: ^9.27.0
+  prettier: ^3.9.10
+  eslint: ^9.39.5
   typescript-eslint: ^8.33.0
   "@eslint/js": ^9.27.0
-  eslint-plugin-boundaries: ^5.2.0
-  husky: ^9.2.0
-  lint-staged: ^16.1.2
-  "@commitlint/cli": ^19.8.1
-  "@commitlint/config-conventional": ^19.8.1
-  vitest: ^3.2.3
-  "@testing-library/react": ^16.3.0
-  jest: ^30.0.5
-  supertest: ^7.1.0
-  playwright: ^1.53.1
+  eslint-plugin-boundaries: ^7.4.0
+  husky: ^9.1.7
+  lint-staged: ^17.6.0
+  "@commitlint/cli": ^21.2.4
+  "@commitlint/config-conventional": ^21.2.4
+  vitest: "*"
+  "@testing-library/react": "*"
+  jest: "*"
+  supertest: "*"
+  playwright: "*"
