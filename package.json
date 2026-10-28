@@ -1,0 +1,23 @@
+{
+  "name": "vietvi",
+  "private": true,
+  "packageManager": "pnpm@11.28.9",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "gen": "turbo run gen",
+    "db:up": "docker compose -f infra/compose/docker-compose.yml up -d",
+    "db:down": "docker compose -f infra/compose/docker-compose.yml down",
+    "db:reset": "docker compose -f infra/compose/docker-compose.yml down -v && docker compose -f infra/compose/docker-compose.yml up -d",
+    "db:migrate": "pnpm --filter @vietvi/api run db:migrate",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
+  }
+}

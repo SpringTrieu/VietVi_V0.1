@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+out/
+.next/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+
+# Code sinh tự động (sinh lại bằng `pnpm gen`)
+packages/contracts/generated/
+
+# Test & coverage
+coverage/
+playwright-report/
+test-results/
+blob-report/
+.vitest-cache/
+
+# Biến môi trường và bí mật
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+
+# Dữ liệu local
+infra/compose/data/
+*.dump
+*.sql.gz
+uploads/
+tmp/
+
+# Log
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Hệ điều hành và IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Triển khai
+.vercel/

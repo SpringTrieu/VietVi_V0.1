@@ -1,0 +1,8 @@
+pnpm-lock.yaml
+**/generated/
+**/.next/
+**/dist/
+**/coverage/
+apps/api/db/schema.sql
+apps/api/db/migrations/
+docs/api/openapi.json
