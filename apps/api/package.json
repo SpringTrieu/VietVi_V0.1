@@ -13,7 +13,10 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "db:migrate": "dbmate --migrations-dir ./db/migrations --schema-file ./db/schema.sql up",
+    "db:rollback": "dbmate --migrations-dir ./db/migrations --schema-file ./db/schema.sql rollback",
+    "db:status": "dbmate --migrations-dir ./db/migrations --schema-file ./db/schema.sql status"
   },
   "dependencies": {
     "@nestjs/common": "catalog:",
@@ -34,6 +37,7 @@
     "@types/supertest": "catalog:",
     "@vietvi/config-eslint": "workspace:*",
     "@vietvi/config-typescript": "workspace:*",
+    "dbmate": "catalog:",
     "eslint": "catalog:",
     "jest": "catalog:",
     "source-map-support": "catalog:",

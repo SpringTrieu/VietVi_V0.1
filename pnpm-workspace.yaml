@@ -54,6 +54,7 @@ catalog:
   eslint-plugin-boundaries: ^7.4.0
   husky: ^9.1.7
   lint-staged: ^17.6.0
+  dbmate: ^2.37.0
   "@commitlint/cli": ^21.2.4
   "@commitlint/config-conventional": ^21.2.4
   vitest: "*"
