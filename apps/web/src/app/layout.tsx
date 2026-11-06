@@ -10,8 +10,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'VIETVI Web',
-  description: 'Nền tảng việc làm linh hoạt VIETVI',
+  title: 'VIETVI - Nền tảng việc làm linh hoạt cho sinh viên Việt Nam',
+  description: 'Nền tảng việc làm ngắn hạn, tiện lợi, minh bạch và an toàn dành riêng cho sinh viên và người có nhu cầu thuê việc.',
+  icons: {
+    icon: '/icon.svg',
+    apple: '/icon.svg',
+  },
 };
 
 export default function RootLayout({
